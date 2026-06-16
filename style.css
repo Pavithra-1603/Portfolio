@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#0f172a;
+    color:white;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+    background:#111827;
+    position:sticky;
+    top:0;
+}
+
+.logo{
+    color:#a855f7;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#a855f7;
+}
+
+.hero{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+h1{
+    font-size:60px;
+}
+
+h2{
+    margin:15px 0;
+    color:#a855f7;
+}
+
+p{
+    margin-bottom:20px;
+}
+
+.btn{
+    text-decoration:none;
+    color:white;
+    border:2px solid #a855f7;
+    padding:10px 20px;
+    margin:5px;
+    border-radius:25px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#a855f7;
+}
+
+.about{
+    padding:100px 50px;
+    text-align:center;
+}
+
+.about h2{
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.about p{
+    max-width:800px;
+    margin:10px auto;
+    line-height:1.8;
+}
+
+.skills{
+    padding:100px 50px;
+    text-align:center;
+}
+
+.skills h2{
+    font-size:40px;
+    margin-bottom:40px;
+}
+
+.skills-container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.skill-card{
+    background:#1e293b;
+    padding:20px 40px;
+    border-radius:15px;
+    cursor:pointer;
+    transition:all 0.3s ease;
+}
+
+.skill-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 20px #a855f7;
+    background:#334155;
+}
+.projects{
+    padding:100px 50px;
+    text-align:center;
+}
+
+.project-card{
+    background:#1e293b;
+    margin:20px auto;
+    max-width:700px;
+    padding:25px;
+    border-radius:15px;
+    transition:0.3s;
+}
+
+.project-card:hover{
+    transform:scale(1.03);
+    box-shadow:0 0 20px #a855f7;
+}
+.contact{
+    padding:100px 50px;
+    text-align:center;
+}
+
+.contact h2{
+    margin-bottom:20px;
+}
