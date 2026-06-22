@@ -2,14 +2,15 @@
 <html>
 <head>
     <title>My Portfolio</title>
+     <link rel="stylesheet"
+    
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
        <nav>
-    <h2 class="logo">Pavithra</h2>
-
-    <ul>
+        <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
@@ -18,81 +19,122 @@
     </ul>
 </nav>
       <section class="hero">
-    <div class="content">
-        <h1>Hi, I'm Pavithra 👋</h1>
-        <h2>MCA Graduate | Python Developer</h2>
+
+    <div class="hero-text">
+        <h1>Hi, I'm Pavithra</h1>
+
+        <h2 id="typing"></h2>
+
         <p>
             Passionate about web development and creating
-            user-friendly applications.
+            user friendly applications.
         </p>
 
-        <a href="#" class="btn">"U.Pavithra_Resume.pdf" download class="btn">Download Resume </a>
-        <a href="#" class="btn">Contact Me</a>
+        <a href="resume/U. Pavithra - Resume.pdf" class="btn">Download Resume</a>
+        <a href="#contact" class="btn">Contact Me</a>
+    </div>
+
+    <div class="hero-image">
+        <img src="images/image.png" class="profile-pic" alt="Pavithra">
     </div>
 </section>
      <section id="about" class="about">
     <h2>About Me</h2>
 
     <p>
-        I am Pavithra, an MCA graduate from Mother Teresa Women's University
-        with a strong interest in Python development, web technologies,
-        and software development.
+        Hello! I'm Pavithra, an MCA graduate and aspiring Python Developer.
+        I am passionate about web development and creating user-friendly applications.
+        I have knowledge in Python, HTML, CSS, JavaScript and Full Stack Development.
+        I enjoy learning new technologies and building creative projects.
     </p>
+<section id="skills" class="skills">
 
-    <p>
-        I enjoy creating responsive websites and learning new technologies
-        to improve my technical skills.
-    </p>
-</section>
-    <section id="skills" class="skills">
-    <h2>My Skills</h2>
+<h2>My Skills</h2>
 
-    <div class="skills-container">
-        <div class="skill-card">HTML</div>
-        <div class="skill-card">CSS</div>
-        <div class="skill-card">JavaScript</div>
-        <div class="skill-card">Python</div>
-        <div class="skill-card">Git</div>
-        <div class="skill-card">GitHub</div>
-        <div class="skill-card">MySQL</div>
-    </div>
+<div class="skills-container">
+
+<div class="skill-box">
+<i class="fab fa-python"></i>
+<h3>Python</h3>
+</div>
+
+<div class="skill-box">
+<i class="fab fa-html5"></i>
+<h3>HTML</h3>
+</div>
+
+<div class="skill-box">
+<i class="fab fa-css3-alt"></i>
+<h3>CSS</h3>
+</div>
+
+<div class="skill-box">
+<i class="fab fa-js"></i>
+<h3>JavaScript</h3>
+</div>
+
+<div class="skill-box">
+<i class="fab fa-github"></i>
+<h3>Git & GitHub</h3>
+</div>
+
+</div>
+
 </section>
      <section id="projects" class="projects">
-    <h2>Projects</h2>
+    <h2>My Projects</h2>
 
     <div class="project-card">
-        <h3>Job Portal System</h3>
+        <h3>Automatic Timetable Generator</h3>
         <p>
-            Developed a job portal application using MERN Stack
-            for job seekers and recruiters.
+            A system that automatically generates class timetables
+            by managing subjects, faculty schedules, and time slots efficiently.
         </p>
     </div>
 
     <div class="project-card">
-        <h3>Online Marketplace</h3>
+        <h3>Job Portal Website</h3>
         <p>
-            Built an e-commerce marketplace with secure payment integration.
+            A web-based platform where job seekers can search and apply
+            for jobs while recruiters can post vacancies and manage applications.
         </p>
     </div>
 
     <div class="project-card">
-        <h3>Python Payment App</h3>
+        <h3>Personal Portfolio Website</h3>
         <p>
-            Created a GPay-style desktop application using Python Tkinter.
+            A responsive personal portfolio showcasing my skills,
+            projects, resume, and contact information.
         </p>
     </div>
+
 </section>
-     <section id="contact" class="contact">
-    <h2>Contact Me</h2>
+    <section id="contact" class="contact">
+    <h2>Let's Connect</h2>
 
-    <p>Email: pavithrauk1603@gmail.com</p>
-    <p>Location: Theni, Tamil Nadu</p>
+    <div class="contact-card">
 
-    <a href="mailto:pavithrauk1603@gmail.com" class="btn">
-        Send Email
-    </a>
+        <a href="mailto:pavithrauk1603@gmail.com" class="contact-item">
+            📧 Email
+        </a>
+
+        <a href="https://github.com/Pavithra-1603" target="_blank" class="contact-item">
+            💻 GitHub
+        </a>
+
+        <a href="https://linkedin.com/in/https://www.linkedin.com/in/pavithra-uthayakumar-00b229321?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="contact-item">
+            💼 LinkedIn
+        </a>
+
+        <div class="contact-item">
+            📍 Theni, Tamil Nadu
+        </div>
+
+    </div>
 </section>
     <script src="script.js"></script>
-
+<footer>
+    <p>© 2026 Pavithra | All Rights Reserved </p>
+</footer>
 </body>
 </html>
